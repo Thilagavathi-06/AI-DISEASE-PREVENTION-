@@ -1,11 +1,6 @@
-import type { createMemoryCodePoints } from './memory-code-points';
-declare function saslprep({ unassigned_code_points, commonly_mapped_to_nothing, non_ASCII_space_characters, prohibited_characters, bidirectional_r_al, bidirectional_l, }: ReturnType<typeof createMemoryCodePoints>, input: string, opts?: {
-    allowUnassigned?: boolean;
-}): string;
-declare namespace saslprep {
-    export var saslprep: typeof import(".");
-    var _a: typeof import(".");
-    export { _a as default };
-}
-export = saslprep;
-//# sourceMappingURL=index.d.ts.map
+import { Query, QueryOperators, BasicValueQuery, ArrayValueQuery, ValueQuery, NestedQuery, ShapeQuery, Options, createQueryTester, EqualsOperation, createQueryOperation, createEqualsOperation, createOperationTester } from "./core";
+declare const createDefaultQueryOperation: <TItem, TSchema extends TItem = TItem>(query: Query<TSchema>, ownerQuery: any, { compare, operations }?: Partial<Options>) => import("./core").QueryOperation<unknown>;
+declare const createDefaultQueryTester: <TItem, TSchema extends TItem = TItem>(query: Query<TSchema>, options?: Partial<Options>) => (item: unknown, key?: import("./utils").Key, owner?: any) => boolean;
+export { Query, QueryOperators, BasicValueQuery, ArrayValueQuery, ValueQuery, NestedQuery, ShapeQuery, EqualsOperation, createQueryTester, createOperationTester, createDefaultQueryOperation, createEqualsOperation, createQueryOperation, };
+export * from "./operations";
+export default createDefaultQueryTester;

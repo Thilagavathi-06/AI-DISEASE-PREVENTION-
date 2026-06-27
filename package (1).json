@@ -1,40 +1,49 @@
 {
-  "name": "utils-merge",
-  "version": "1.0.1",
-  "description": "merge() utility function",
-  "keywords": [
-    "util"
+  "name": "statuses",
+  "description": "HTTP status utility",
+  "version": "2.0.2",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
   ],
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jaredhanson/utils-merge.git"
-  },
-  "bugs": {
-    "url": "http://github.com/jaredhanson/utils-merge/issues"
-  },
+  "repository": "jshttp/statuses",
   "license": "MIT",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
+  "keywords": [
+    "http",
+    "status",
+    "code"
   ],
-  "main": "./index",
-  "dependencies": {},
+  "files": [
+    "HISTORY.md",
+    "index.js",
+    "codes.json",
+    "LICENSE"
+  ],
   "devDependencies": {
-    "make-node": "0.3.x",
-    "mocha": "1.x.x",
-    "chai": "1.x.x"
+    "csv-parse": "4.16.3",
+    "eslint": "7.19.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-markdown": "1.0.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-standard": "4.1.0",
+    "mocha": "8.4.0",
+    "nyc": "15.1.0",
+    "raw-body": "2.5.2",
+    "stream-to-array": "2.3.0"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.8"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+    "build": "node scripts/build.js",
+    "fetch": "node scripts/fetch-apache.js && node scripts/fetch-iana.js && node scripts/fetch-nginx.js && node scripts/fetch-node.js",
+    "lint": "eslint --plugin markdown --ext js,md .",
+    "test": "mocha --reporter spec --check-leaks --bail test/",
+    "test-ci": "nyc --reporter=lcov --reporter=text npm test",
+    "test-cov": "nyc --reporter=html --reporter=text npm test",
+    "update": "npm run fetch && npm run build",
+    "version": "node scripts/version-history.js && git add HISTORY.md"
   }
 }

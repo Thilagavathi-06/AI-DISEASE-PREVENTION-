@@ -1,0 +1,316 @@
+[
+  {
+    "_id": "mqwqjhrx60at3",
+    "createdAt": "2026-06-27T19:10:47.997Z",
+    "updatedAt": "2026-06-27T19:10:47.997Z",
+    "userId": "mqwqek9prddhp",
+    "inputData": {
+      "age": 32,
+      "gender": "Male",
+      "height": 178,
+      "weight": 82,
+      "bmi": 25.9,
+      "bloodPressureSystolic": 142,
+      "bloodPressureDiastolic": 92,
+      "sugarLevel": 135,
+      "heartRate": 84,
+      "cholesterol": 245,
+      "smoking": false,
+      "alcohol": false,
+      "familyHistory": [],
+      "symptoms": []
+    },
+    "predictions": {
+      "diabetes": {
+        "riskPercentage": 67,
+        "riskLevel": "High",
+        "confidenceScore": 94
+      },
+      "heartDisease": {
+        "riskPercentage": 60,
+        "riskLevel": "Medium",
+        "confidenceScore": 91
+      },
+      "liverDisease": {
+        "riskPercentage": 13,
+        "riskLevel": "Low",
+        "confidenceScore": 83
+      },
+      "kidneyDisease": {
+        "riskPercentage": 35,
+        "riskLevel": "Medium",
+        "confidenceScore": 88
+      },
+      "hypertension": {
+        "riskPercentage": 85,
+        "riskLevel": "High",
+        "confidenceScore": 93
+      }
+    },
+    "preventionPlan": {
+      "dietPlan": [
+        "Maintain a balanced diet rich in leafy greens, fiber, and lean proteins.",
+        "Restrict processed sugars, refined carbohydrates, and sugary beverages.",
+        "Incorporate low glycemic index foods like whole grains, legumes, and non-starchy vegetables.",
+        "Adopt a DASH-style diet: low sodium (< 2,300 mg/day), low saturated fats.",
+        "Incorporate heart-healthy fats (olive oil, avocados, nuts) and foods high in Omega-3.",
+        "Avoid excessive protein intake; choose high-quality, plant-based proteins when possible.",
+        "Minimize dietary sodium and phosphorus-rich foods."
+      ],
+      "exercisePlan": [
+        "Perform at least 150 minutes of moderate aerobic exercise (e.g. brisk walking) weekly.",
+        "Incorporate daily cardiovascular exercises like jogging, swimming, or cycling."
+      ],
+      "waterIntake": "2.9 Liters / day",
+      "sleepRecommendation": "7 - 8 hours of quality sleep per night",
+      "lifestyleChanges": [
+        "Ensure consistent hydration and regular checkups.",
+        "Monitor fasting blood glucose levels monthly.",
+        "Aim for gradual weight reduction if BMI is elevated.",
+        "Check blood pressure weekly and track trends.",
+        "Verify kidney function parameters (e.g. eGFR, Serum Creatinine) in annual checkups."
+      ],
+      "precautions": [
+        "Monitor vitals periodically. If acute chest pain, shortness of breath, or numbness occurs, consult a physician immediately.",
+        "Avoid self-prescribing NSAIDs (like ibuprofen) as they can stress the kidneys."
+      ]
+    }
+  },
+  {
+    "_id": "mqwrkugdq4mla",
+    "createdAt": "2026-06-27T19:39:50.701Z",
+    "updatedAt": "2026-06-27T19:39:50.703Z",
+    "userId": "mqwratdhgcgu1",
+    "inputData": {
+      "age": 36,
+      "gender": "Male",
+      "height": 182,
+      "weight": 85,
+      "bmi": 25.7,
+      "bloodPressureSystolic": 145,
+      "bloodPressureDiastolic": 95,
+      "sugarLevel": 132,
+      "heartRate": 86,
+      "cholesterol": 250,
+      "smoking": true,
+      "alcohol": false,
+      "familyHistory": [
+        "diabetes"
+      ],
+      "symptoms": [
+        "fatigue",
+        "thirst"
+      ]
+    },
+    "predictions": {
+      "diabetes": {
+        "riskPercentage": 98,
+        "riskLevel": "High",
+        "confidenceScore": 92
+      },
+      "heartDisease": {
+        "riskPercentage": 80,
+        "riskLevel": "High",
+        "confidenceScore": 89
+      },
+      "liverDisease": {
+        "riskPercentage": 13,
+        "riskLevel": "Low",
+        "confidenceScore": 86
+      },
+      "kidneyDisease": {
+        "riskPercentage": 43,
+        "riskLevel": "Medium",
+        "confidenceScore": 91
+      },
+      "hypertension": {
+        "riskPercentage": 95,
+        "riskLevel": "High",
+        "confidenceScore": 97
+      }
+    },
+    "preventionPlan": {
+      "dietPlan": [
+        "Maintain a balanced diet rich in leafy greens, fiber, and lean proteins.",
+        "Restrict processed sugars, refined carbohydrates, and sugary beverages.",
+        "Incorporate low glycemic index foods like whole grains, legumes, and non-starchy vegetables.",
+        "Adopt a DASH-style diet: low sodium (< 2,300 mg/day), low saturated fats.",
+        "Incorporate heart-healthy fats (olive oil, avocados, nuts) and foods high in Omega-3.",
+        "Avoid excessive protein intake; choose high-quality, plant-based proteins when possible.",
+        "Minimize dietary sodium and phosphorus-rich foods."
+      ],
+      "exercisePlan": [
+        "Perform at least 150 minutes of moderate aerobic exercise (e.g. brisk walking) weekly.",
+        "Incorporate daily cardiovascular exercises like jogging, swimming, or cycling."
+      ],
+      "waterIntake": "3.0 Liters / day",
+      "sleepRecommendation": "7 - 8 hours of quality sleep per night",
+      "lifestyleChanges": [
+        "Ensure consistent hydration and regular checkups.",
+        "Monitor fasting blood glucose levels monthly.",
+        "Aim for gradual weight reduction if BMI is elevated.",
+        "Check blood pressure weekly and track trends.",
+        "Enroll in a smoking cessation program (smoking raises cardiovascular risk dramatically).",
+        "Verify kidney function parameters (e.g. eGFR, Serum Creatinine) in annual checkups."
+      ],
+      "precautions": [
+        "Monitor vitals periodically. If acute chest pain, shortness of breath, or numbness occurs, consult a physician immediately.",
+        "Avoid self-prescribing NSAIDs (like ibuprofen) as they can stress the kidneys."
+      ]
+    }
+  },
+  {
+    "_id": "mqwskva61av2z",
+    "createdAt": "2026-06-27T20:07:51.390Z",
+    "updatedAt": "2026-06-27T20:07:51.390Z",
+    "userId": "mqwsjcdms231m",
+    "inputData": {
+      "age": 19,
+      "gender": "Female",
+      "height": 170,
+      "weight": 445,
+      "bmi": 154,
+      "bloodPressureSystolic": 120,
+      "bloodPressureDiastolic": 880,
+      "sugarLevel": 95,
+      "heartRate": 71,
+      "cholesterol": 185,
+      "smoking": false,
+      "alcohol": false,
+      "familyHistory": [],
+      "symptoms": []
+    },
+    "predictions": {
+      "diabetes": {
+        "riskPercentage": 35,
+        "riskLevel": "Medium",
+        "confidenceScore": 92
+      },
+      "heartDisease": {
+        "riskPercentage": 38,
+        "riskLevel": "Medium",
+        "confidenceScore": 96
+      },
+      "liverDisease": {
+        "riskPercentage": 20,
+        "riskLevel": "Low",
+        "confidenceScore": 89
+      },
+      "kidneyDisease": {
+        "riskPercentage": 28,
+        "riskLevel": "Medium",
+        "confidenceScore": 93
+      },
+      "hypertension": {
+        "riskPercentage": 85,
+        "riskLevel": "High",
+        "confidenceScore": 96
+      }
+    },
+    "preventionPlan": {
+      "dietPlan": [
+        "Maintain a balanced diet rich in leafy greens, fiber, and lean proteins.",
+        "Restrict processed sugars, refined carbohydrates, and sugary beverages.",
+        "Incorporate low glycemic index foods like whole grains, legumes, and non-starchy vegetables.",
+        "Adopt a DASH-style diet: low sodium (< 2,300 mg/day), low saturated fats.",
+        "Incorporate heart-healthy fats (olive oil, avocados, nuts) and foods high in Omega-3.",
+        "Avoid excessive protein intake; choose high-quality, plant-based proteins when possible.",
+        "Minimize dietary sodium and phosphorus-rich foods."
+      ],
+      "exercisePlan": [
+        "Perform at least 150 minutes of moderate aerobic exercise (e.g. brisk walking) weekly.",
+        "Incorporate daily cardiovascular exercises like jogging, swimming, or cycling."
+      ],
+      "waterIntake": "4.5 Liters / day",
+      "sleepRecommendation": "7 - 8 hours of quality sleep per night",
+      "lifestyleChanges": [
+        "Ensure consistent hydration and regular checkups.",
+        "Monitor fasting blood glucose levels monthly.",
+        "Aim for gradual weight reduction if BMI is elevated.",
+        "Check blood pressure weekly and track trends.",
+        "Verify kidney function parameters (e.g. eGFR, Serum Creatinine) in annual checkups."
+      ],
+      "precautions": [
+        "Monitor vitals periodically. If acute chest pain, shortness of breath, or numbness occurs, consult a physician immediately.",
+        "Avoid self-prescribing NSAIDs (like ibuprofen) as they can stress the kidneys."
+      ]
+    }
+  },
+  {
+    "_id": "mqwtqi2m2j2zv",
+    "createdAt": "2026-06-27T20:40:13.822Z",
+    "updatedAt": "2026-06-27T20:40:13.823Z",
+    "userId": "mqwsjcdms231m",
+    "inputData": {
+      "age": 19,
+      "gender": "Female",
+      "height": 170,
+      "weight": 445,
+      "bmi": 154,
+      "bloodPressureSystolic": 150,
+      "bloodPressureDiastolic": 85,
+      "sugarLevel": 100,
+      "heartRate": 80,
+      "cholesterol": 200,
+      "smoking": false,
+      "alcohol": false,
+      "familyHistory": [],
+      "symptoms": []
+    },
+    "predictions": {
+      "diabetes": {
+        "riskPercentage": 35,
+        "riskLevel": "Medium",
+        "confidenceScore": 94
+      },
+      "heartDisease": {
+        "riskPercentage": 38,
+        "riskLevel": "Medium",
+        "confidenceScore": 94
+      },
+      "liverDisease": {
+        "riskPercentage": 20,
+        "riskLevel": "Low",
+        "confidenceScore": 84
+      },
+      "kidneyDisease": {
+        "riskPercentage": 28,
+        "riskLevel": "Medium",
+        "confidenceScore": 82
+      },
+      "hypertension": {
+        "riskPercentage": 99,
+        "riskLevel": "High",
+        "confidenceScore": 95
+      }
+    },
+    "preventionPlan": {
+      "dietPlan": [
+        "Maintain a balanced diet rich in leafy greens, fiber, and lean proteins.",
+        "Restrict processed sugars, refined carbohydrates, and sugary beverages.",
+        "Incorporate low glycemic index foods like whole grains, legumes, and non-starchy vegetables.",
+        "Adopt a DASH-style diet: low sodium (< 2,300 mg/day), low saturated fats.",
+        "Incorporate heart-healthy fats (olive oil, avocados, nuts) and foods high in Omega-3.",
+        "Avoid excessive protein intake; choose high-quality, plant-based proteins when possible.",
+        "Minimize dietary sodium and phosphorus-rich foods."
+      ],
+      "exercisePlan": [
+        "Perform at least 150 minutes of moderate aerobic exercise (e.g. brisk walking) weekly.",
+        "Incorporate daily cardiovascular exercises like jogging, swimming, or cycling."
+      ],
+      "waterIntake": "4.5 Liters / day",
+      "sleepRecommendation": "7 - 8 hours of quality sleep per night",
+      "lifestyleChanges": [
+        "Ensure consistent hydration and regular checkups.",
+        "Monitor fasting blood glucose levels monthly.",
+        "Aim for gradual weight reduction if BMI is elevated.",
+        "Check blood pressure weekly and track trends.",
+        "Verify kidney function parameters (e.g. eGFR, Serum Creatinine) in annual checkups."
+      ],
+      "precautions": [
+        "Monitor vitals periodically. If acute chest pain, shortness of breath, or numbness occurs, consult a physician immediately.",
+        "Avoid self-prescribing NSAIDs (like ibuprofen) as they can stress the kidneys."
+      ]
+    }
+  }
+]

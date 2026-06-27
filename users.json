@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "mqwqek9prddhp",
+    "createdAt": "2026-06-27T19:06:57.949Z",
+    "updatedAt": "2026-06-27T19:08:38.343Z",
+    "name": "Test Patient",
+    "email": "patient@test.com",
+    "password": "$2a$10$5na5So8jQXvurh2uKIMj..YtUpMoVH8prGBinIcEI5VuzJOKx2ETy",
+    "age": 32,
+    "gender": "Male",
+    "height": 178,
+    "weight": 82,
+    "bloodGroup": "O+"
+  },
+  {
+    "_id": "mqwratdhgcgu1",
+    "createdAt": "2026-06-27T19:32:02.741Z",
+    "updatedAt": "2026-06-27T19:35:21.110Z",
+    "name": "Verification Patient",
+    "email": "verify@test.com",
+    "password": "$2a$10$mvLsSRfIf6j5uF09anNXx.eLVUryx13Dx.axYqB460Zw/q.gwHZke",
+    "age": 36,
+    "gender": "Male",
+    "height": 182,
+    "weight": 85,
+    "bloodGroup": "AB+"
+  },
+  {
+    "_id": "mqwsjcdms231m",
+    "createdAt": "2026-06-27T20:06:40.234Z",
+    "updatedAt": "2026-06-27T20:07:11.320Z",
+    "name": "THILAGA",
+    "email": "thilaga@gmail.com",
+    "password": "$2a$10$HyIjl5dWUKMd23Ls9MQyoeUb2zHXcPHbcy5Vd8CE4RAr9W3/nuBs2",
+    "age": 19,
+    "gender": "Female",
+    "height": 170,
+    "weight": 445,
+    "bloodGroup": "A+"
+  }
+]
